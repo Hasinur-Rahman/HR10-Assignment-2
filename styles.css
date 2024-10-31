@@ -560,6 +560,43 @@ nav>.link>ul>li>a>img {
     margin-top: 33px;
 }
 
+/* uniq section start */
+.promise{
+    width: 100%;
+    background-color: rgb(14 13 13);
+    padding: 70px 0 0 0;
+}
+.promise>.promise-container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.promise>.promise-container>h3{
+    font-size: 3rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+}
+.promise>.promise-container>p{
+    font-size: 1rem;
+    color: var(--ptext-color);
+    margin-bottom: 100px;
+}
+
+.promise>.promise-container>.card-container{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed gray;
+    padding-bottom: 110px;
+}
+.promise>.promise-container>.card-container>.card>h5{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    margin-top: 15px;
+}
+
+
 /* team section start */
 .team{
     width: 100%;
@@ -843,6 +880,12 @@ footer>.footer{
     .bmi-contain{
         flex-direction: column;
         gap: 50px;
+    }
+
+    /* uniq section */
+    .promise>.promise-container>.card-container{
+        flex-direction: column;
+        gap: 3rem;
     }
 
     /* for team section */
